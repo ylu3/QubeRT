@@ -16,15 +16,10 @@ class Scheduling:
             OptimizeResult: A named tuple with the maximum profit and the selected contracts.
         """
         # Separate the attributes of contracts into separate lists for easier processing
-        start_times, end_times, prices, names = [], [], [], []
-        for contract in contracts:
-            names.append(contract.name)
-            start_times.append(contract.start)
-            end_times.append(contract.start + contract.duration)
-            prices.append(contract.price)
+        start_times, end_times, prices, names = zip(*[(contract.start, contract.start + contract.duration,
+                                                       contract.price, contract.name) for contract in contracts])
 
-        n = len(prices)
-        index = list(range(n))
+        index = list(range(len(contracts)))
         # Sort the contracts based on end times
         index.sort(key=lambda x: end_times[x])
         # Initialize lists for storing previous end times and maximum profit

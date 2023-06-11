@@ -24,7 +24,7 @@ def read_contract_data(file_path):
 # Pytest decorator to enable parametrized tests
 @pytest.mark.parametrize(
     "test_case",  # Argument name for the test function
-    read_contract_data("payloads.json")  # List of argument values
+    read_contract_data("data/payloads.json")  # List of argument values
 )
 # Test function to test the "/spaceship/optimize" endpoint of the FastAPI application
 def test_optimize_contracts(test_case):

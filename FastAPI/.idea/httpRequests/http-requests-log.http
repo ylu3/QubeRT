@@ -1,5 +1,185 @@
 POST http://localhost:8080/spaceship/optimize
 Content-Type: application/json
+Content-Length: 268
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+[
+    {"name": "Contract1", "start": 0, "duration": 5, "price": 10},
+    {"name": "Contract2", "start": 3, "duration": 7, "price": 14},
+    {"name": "Contract3", "start": 5, "duration": 9, "price": 8},
+    {"name": "Contract4", "start": 5, "duration": 9, "price": 7}
+]
+
+<> 2023-06-11T052303.200.json
+
+###
+
+POST http://localhost:8080/spaceship/optimize
+Content-Type: application/json
+Content-Length: 268
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+[
+    {"name": "Contract1", "start": 0, "duration": 5, "price": 10},
+    {"name": "Contract2", "start": 3, "duration": 7, "price": 14},
+    {"name": "Contract3", "start": 5, "duration": 9, "price": 8},
+    {"name": "Contract4", "start": 5, "duration": 9, "price": 7}
+]
+
+<> 2023-06-11T052103.500.txt
+
+###
+
+POST http://localhost:8080/spaceship/optimize
+Content-Type: application/json
+Content-Length: 268
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+[
+    {"name": "Contract1", "start": 0, "duration": 5, "price": 10},
+    {"name": "Contract2", "start": 3, "duration": 7, "price": 14},
+    {"name": "Contract3", "start": 5, "duration": 9, "price": 8},
+    {"name": "Contract4", "start": 5, "duration": 9, "price": 7}
+]
+
+<> 2023-06-11T051450.500.txt
+
+###
+
+POST http://localhost:8080/spaceship/optimize
+Content-Type: application/json
+Content-Length: 268
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+[
+    {"name": "Contract1", "start": 0, "duration": 5, "price": 10},
+    {"name": "Contract2", "start": 3, "duration": 7, "price": 14},
+    {"name": "Contract3", "start": 5, "duration": 9, "price": 8},
+    {"name": "Contract4", "start": 5, "duration": 9, "price": 7}
+]
+
+<> 2023-06-11T051433.500.txt
+
+###
+
+POST http://localhost:8080/spaceship/optimize
+Content-Type: application/json
+Content-Length: 268
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+[
+    {"name": "Contract1", "start": 0, "duration": 5, "price": 10},
+    {"name": "Contract2", "start": 3, "duration": 7, "price": 14},
+    {"name": "Contract3", "start": 5, "duration": 9, "price": 8},
+    {"name": "Contract4", "start": 5, "duration": 9, "price": 7}
+]
+
+<> 2023-06-11T050934.500.txt
+
+###
+
+POST http://localhost:8080/spaceship/optimize
+Content-Type: application/json
+Content-Length: 268
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+[
+    {"name": "Contract1", "start": 0, "duration": 5, "price": 10},
+    {"name": "Contract2", "start": 3, "duration": 7, "price": 14},
+    {"name": "Contract3", "start": 5, "duration": 9, "price": 8},
+    {"name": "Contract4", "start": 5, "duration": 9, "price": 7}
+]
+
+<> 2023-06-11T050901.500.txt
+
+###
+
+POST http://localhost:8080/spaceship/optimize
+Content-Type: application/json
+Content-Length: 268
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+[
+    {"name": "Contract1", "start": 0, "duration": 5, "price": 10},
+    {"name": "Contract2", "start": 3, "duration": 7, "price": 14},
+    {"name": "Contract3", "start": 5, "duration": 9, "price": 8},
+    {"name": "Contract4", "start": 5, "duration": 9, "price": 7}
+]
+
+<> 2023-06-11T050735.500.txt
+
+###
+
+POST http://localhost:8080/spaceship/optimize
+Content-Type: application/json
+Content-Length: 268
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+[
+    {"name": "Contract1", "start": 0, "duration": 5, "price": 10},
+    {"name": "Contract2", "start": 3, "duration": 7, "price": 14},
+    {"name": "Contract3", "start": 5, "duration": 9, "price": 8},
+    {"name": "Contract4", "start": 5, "duration": 9, "price": 7}
+]
+
+<> 2023-06-11T043423.200.json
+
+###
+
+POST http://localhost:8080/spaceship/optimize
+Content-Type: application/json
+Content-Length: 268
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+[
+    {"name": "Contract1", "start": 0, "duration": 5, "price": 10},
+    {"name": "Contract2", "start": 3, "duration": 7, "price": 14},
+    {"name": "Contract3", "start": 5, "duration": 9, "price": 8},
+    {"name": "Contract4", "start": 5, "duration": 9, "price": 7}
+]
+
+<> 2023-06-11T043413.200.json
+
+###
+
+POST http://localhost:8080/spaceship/optimize
+Content-Type: application/json
+Content-Length: 268
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+[
+    {"name": "Contract1", "start": 0, "duration": 5, "price": 10},
+    {"name": "Contract2", "start": 3, "duration": 7, "price": 14},
+    {"name": "Contract3", "start": 5, "duration": 9, "price": 8},
+    {"name": "Contract4", "start": 5, "duration": 9, "price": 7}
+]
+
+<> 2023-06-11T043159.200.json
+
+###
+
+POST http://localhost:8080/spaceship/optimize
+Content-Type: application/json
 Content-Length: 672
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
@@ -6799,188 +6979,6 @@ Accept-Encoding: br,deflate,gzip,x-gzip
 ]
 
 <> 2023-06-11T025431.200.json
-
-###
-
-POST http://localhost:8080/spaceship/optimize
-Content-Type: application/json
-Content-Length: 333
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-[
-    {"name": "Contract1", "start": 4, "duration": 1, "price": 1},
-    {"name": "Contract2", "start": 2, "duration": 3, "price": 2},
-    {"name": "Contract3", "start": 4, "duration": 1, "price": 8},
-    {"name": "Contract4", "start": 8, "duration": 2, "price": 10},
-    {"name": "Contract5", "start": 2, "duration": 6, "price": 4}
-]
-
-<> 2023-06-11T024253.200.json
-
-###
-
-POST http://localhost:8080/spaceship/optimize
-Content-Type: application/json
-Content-Length: 333
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-[
-    {"name": "Contract1", "start": 4, "duration": 1, "price": 1},
-    {"name": "Contract2", "start": 2, "duration": 3, "price": 2},
-    {"name": "Contract3", "start": 4, "duration": 1, "price": 8},
-    {"name": "Contract4", "start": 8, "duration": 2, "price": 10},
-    {"name": "Contract5", "start": 2, "duration": 6, "price": 4}
-]
-
-<> 2023-06-11T024249.200.json
-
-###
-
-POST http://localhost:8080/spaceship/optimize
-Content-Type: application/json
-Content-Length: 266
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-[
-    {"name": "Contract1", "start": 1, "duration": 1, "price": 3},
-    {"name": "Contract2", "start": 2, "duration": 3, "price": 4},
-    {"name": "Contract3", "start": 2, "duration": 1, "price": 1},
-    {"name": "Contract4", "start": 3, "duration": 1, "price": 2}
-]
-
-<> 2023-06-11T022851.200.json
-
-###
-
-POST http://localhost:8080/spaceship/optimize
-Content-Type: application/json
-Content-Length: 266
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-[
-    {"name": "Contract1", "start": 1, "duration": 1, "price": 3},
-    {"name": "Contract2", "start": 2, "duration": 3, "price": 4},
-    {"name": "Contract3", "start": 2, "duration": 1, "price": 1},
-    {"name": "Contract4", "start": 3, "duration": 1, "price": 2}
-]
-
-<> 2023-06-11T022626.200.json
-
-###
-
-POST http://localhost:8080/spaceship/optimize
-Content-Type: application/json
-Content-Length: 266
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-[
-    {"name": "Contract1", "start": 1, "duration": 1, "price": 3},
-    {"name": "Contract2", "start": 2, "duration": 3, "price": 4},
-    {"name": "Contract3", "start": 2, "duration": 1, "price": 1},
-    {"name": "Contract4", "start": 3, "duration": 1, "price": 2}
-]
-
-<> 2023-06-11T022623.200.json
-
-###
-
-POST http://localhost:8080/spaceship/optimize
-Content-Type: application/json
-Content-Length: 200
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-[
-    {"name": "Contract1", "start": 1, "duration": 1, "price": 5},
-    {"name": "Contract2", "start": 1, "duration": 2, "price": 6},
-    {"name": "Contract3", "start": 1, "duration": 3, "price": 4}
-]
-
-<> 2023-06-11T022518.200.json
-
-###
-
-POST http://localhost:8080/spaceship/optimize
-Content-Type: application/json
-Content-Length: 338
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-[
-    {"name": "Contract1", "start": 1, "duration": 2, "price": 20},
-    {"name": "Contract2", "start": 2, "duration": 3, "price": 20},
-    {"name": "Contract3", "start": 3, "duration": 7, "price": 100},
-    {"name": "Contract4", "start": 4, "duration": 2, "price": 70},
-    {"name": "Contract5", "start": 6, "duration": 3, "price": 60}
-]
-
-<> 2023-06-11T022426.200.json
-
-###
-
-POST http://localhost:8080/spaceship/optimize
-Content-Type: application/json
-Content-Length: 270
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-[
-    {"name": "Contract1", "start": 1, "duration": 2, "price": 50},
-    {"name": "Contract2", "start": 2, "duration": 2, "price": 10},
-    {"name": "Contract3", "start": 3, "duration": 2, "price": 40},
-    {"name": "Contract4", "start": 3, "duration": 3, "price": 70}
-]
-
-<> 2023-06-11T022309.200.json
-
-###
-
-POST http://localhost:8080/spaceship/optimize
-Content-Type: application/json
-Content-Length: 270
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-[
-    {"name": "Contract1", "start": 1, "duration": 2, "price": 50},
-    {"name": "Contract2", "start": 2, "duration": 2, "price": 10},
-    {"name": "Contract3", "start": 3, "duration": 2, "price": 40},
-    {"name": "Contract4", "start": 3, "duration": 3, "price": 70}
-]
-
-<> 2023-06-11T022306.200.json
-
-###
-
-POST http://localhost:8080/spaceship/optimize
-Content-Type: application/json
-Content-Length: 268
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-[
-    {"name": "Contract1", "start": 0, "duration": 5, "price": 10},
-    {"name": "Contract2", "start": 3, "duration": 7, "price": 14},
-    {"name": "Contract3", "start": 5, "duration": 9, "price": 8},
-    {"name": "Contract4", "start": 5, "duration": 9, "price": 7}
-]
-
-<> 2023-06-11T022305.200.json
 
 ###
 

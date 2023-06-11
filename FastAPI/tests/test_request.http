@@ -1,0 +1,146 @@
+# Test your FastAPI endpoints
+
+### Optimize Contracts 0 : 18
+POST http://localhost:8080/spaceship/optimize
+Content-Type: application/json
+
+[
+    {"name": "Contract1", "start": 0, "duration": 5, "price": 10},
+    {"name": "Contract2", "start": 3, "duration": 7, "price": 14},
+    {"name": "Contract3", "start": 5, "duration": 9, "price": 8},
+    {"name": "Contract4", "start": 5, "duration": 9, "price": 7}
+]
+
+### Optimize Contracts 1 : 120
+POST http://localhost:8080/spaceship/optimize
+Content-Type: application/json
+
+[
+    {"name": "Contract1", "start": 1, "duration": 2, "price": 50},
+    {"name": "Contract2", "start": 2, "duration": 2, "price": 10},
+    {"name": "Contract3", "start": 3, "duration": 2, "price": 40},
+    {"name": "Contract4", "start": 3, "duration": 3, "price": 70}
+]
+
+### Optimize Contracts 2 : 150
+POST http://localhost:8080/spaceship/optimize
+Content-Type: application/json
+
+[
+    {"name": "Contract1", "start": 1, "duration": 2, "price": 20},
+    {"name": "Contract2", "start": 2, "duration": 3, "price": 20},
+    {"name": "Contract3", "start": 3, "duration": 7, "price": 100},
+    {"name": "Contract4", "start": 4, "duration": 2, "price": 70},
+    {"name": "Contract5", "start": 6, "duration": 3, "price": 60}
+]
+
+### Optimize Contracts 3 : 6
+POST http://localhost:8080/spaceship/optimize
+Content-Type: application/json
+
+[
+    {"name": "Contract1", "start": 1, "duration": 1, "price": 5},
+    {"name": "Contract2", "start": 1, "duration": 2, "price": 6},
+    {"name": "Contract3", "start": 1, "duration": 3, "price": 4}
+]
+
+### Optimize Contracts 4 : 7
+POST http://localhost:8080/spaceship/optimize
+Content-Type: application/json
+
+[
+    {"name": "Contract1", "start": 1, "duration": 1, "price": 3},
+    {"name": "Contract2", "start": 2, "duration": 3, "price": 4},
+    {"name": "Contract3", "start": 2, "duration": 1, "price": 1},
+    {"name": "Contract4", "start": 3, "duration": 1, "price": 2}
+]
+
+### Optimize Contracts 5 : 18
+POST http://localhost:8080/spaceship/optimize
+Content-Type: application/json
+
+[
+    {"name": "Contract1", "start": 4, "duration": 1, "price": 1},
+    {"name": "Contract2", "start": 2, "duration": 3, "price": 2},
+    {"name": "Contract3", "start": 4, "duration": 1, "price": 8},
+    {"name": "Contract4", "start": 8, "duration": 2, "price": 10},
+    {"name": "Contract5", "start": 2, "duration": 6, "price": 4}
+]
+
+### Optimize Contracts 6 : 10
+POST http://localhost:8080/spaceship/optimize
+Content-Type: application/json
+
+[
+    {"name": "Contract1", "start": 3, "duration": 7, "price": 10},
+    {"name": "Contract2", "start": 5, "duration": 3, "price": 8},
+    {"name": "Contract3", "start": 3, "duration": 5, "price": 10},
+    {"name": "Contract4", "start": 7, "duration": 3, "price": 9},
+    {"name": "Contract5", "start": 4, "duration": 5, "price": 9}
+]
+
+### Optimize Contracts 7 : 41
+POST http://localhost:8080/spaceship/optimize
+Content-Type: application/json
+
+[
+    {"name": "Contract1", "start": 6, "duration": 13, "price": 2},
+    {"name": "Contract2", "start": 15, "duration": 3, "price": 9},
+    {"name": "Contract3", "start": 7, "duration": 12, "price": 1},
+    {"name": "Contract4", "start": 11, "duration": 5, "price": 19},
+    {"name": "Contract5", "start": 1, "duration": 9, "price": 5},
+    {"name": "Contract6", "start": 3, "duration": 5, "price": 7},
+    {"name": "Contract7", "start": 16, "duration": 3, "price": 3},
+    {"name": "Contract8", "start": 2, "duration": 6, "price": 19}
+]
+
+### Optimize Contracts 8 : 22
+POST http://localhost:8080/spaceship/optimize
+Content-Type: application/json
+
+[
+    {"name": "Contract1", "start": 1, "duration": 16, "price": 9},
+    {"name": "Contract2", "start": 3, "duration": 11, "price": 3},
+    {"name": "Contract3", "start": 3, "duration": 5, "price": 7},
+    {"name": "Contract4", "start": 3, "duration": 8, "price": 18},
+    {"name": "Contract5", "start": 5, "duration": 9, "price": 2},
+    {"name": "Contract6", "start": 5, "duration": 2, "price": 17},
+    {"name": "Contract7", "start": 13, "duration": 4, "price": 4},
+    {"name": "Contract8", "start": 5, "duration": 4, "price": 6}
+]
+
+### Optimize Contracts 9 : 20
+POST http://localhost:8080/spaceship/optimize
+Content-Type: application/json
+
+[
+    {"name": "Contract1", "start": 24, "duration": 3, "price": 6},
+    {"name": "Contract2", "start": 24, "duration": 3, "price": 1},
+    {"name": "Contract3", "start": 7, "duration": 13, "price": 4},
+    {"name": "Contract4", "start": 2, "duration": 5, "price": 2},
+    {"name": "Contract5", "start": 1, "duration": 13, "price": 3},
+    {"name": "Contract6", "start": 13, "duration": 9, "price": 6},
+    {"name": "Contract7", "start": 6, "duration": 14, "price": 5},
+    {"name": "Contract8", "start": 14, "duration": 10, "price": 6},
+    {"name": "Contract9", "start": 18, "duration": 1, "price": 9},
+    {"name": "Contract10", "start": 24, "duration": 3, "price": 8}
+]
+
+### Optimize Contracts 10 : 18
+POST http://localhost:8080/spaceship/optimize
+Content-Type: application/json
+
+[
+    {"name": "Contract1", "start": 11, "duration": 9, "price": 2},
+    {"name": "Contract2", "start": 10, "duration": 13, "price": 2},
+    {"name": "Contract3", "start": 14, "duration": 8, "price": 3},
+    {"name": "Contract4", "start": 24, "duration": 5, "price": 2},
+    {"name": "Contract5", "start": 5, "duration": 4, "price": 4},
+    {"name": "Contract6", "start": 9, "duration": 4, "price": 3},
+    {"name": "Contract7", "start": 3, "duration": 6, "price": 4},
+    {"name": "Contract8", "start": 17, "duration": 6, "price": 4},
+    {"name": "Contract9", "start": 27, "duration": 1, "price": 7},
+    {"name": "Contract10", "start": 20, "duration": 10, "price": 2}
+]
+
+

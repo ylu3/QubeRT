@@ -11,7 +11,7 @@ async def load_json():
     Returns:
     dict: A dictionary containing the data loaded from the JSON file.
     """
-    with open('data/test_0003.json', 'r') as file:
+    with open('data/payload_30k.json', 'r') as file:
         return json.load(file)
 
 
@@ -35,7 +35,7 @@ async def send_request(contracts):
     # Print returned data if request was successful, else print the error
     if response.status_code == 200:
         print("Response Data: ", response.json())
-        print(len(response.json()['contracts']))
+        print("Total Selected: ", len(response.json()['contracts']))
     else:
         print("Error Occurred: ", response.text)
 

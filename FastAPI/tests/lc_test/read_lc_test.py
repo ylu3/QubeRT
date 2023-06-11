@@ -5,7 +5,7 @@ import asyncio
 
 contracts = []
 
-with open('LC20.txt', 'r') as file:
+with open('lc.txt', 'r') as file:
     start_time = json.loads(file.readline())
     end_time = json.loads(file.readline())
     price = json.loads(file.readline())
@@ -20,7 +20,7 @@ for i in range(len(start_time)):
 for contract in contracts:
     print(contract)
 
-with open('LC20.json', 'w') as json_file:
+with open('lc.json', 'w') as json_file:
     json_file.write('[\n')
     for i in range(len(contracts)):
         if i != len(contracts) - 1:  # 如果不是最后一个，添加逗号

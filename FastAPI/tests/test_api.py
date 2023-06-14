@@ -1,9 +1,11 @@
 import pytest
 import json
+import os
 from fastapi.testclient import TestClient
 from main import app
 
 client = TestClient(app)
+test_data = os.path.join(os.path.dirname(__file__), "data/payloads.json")
 
 
 # Function to read test contract data from a JSON file
@@ -24,7 +26,7 @@ def read_contract_data(file_path):
 # Pytest decorator to enable parametrized tests
 @pytest.mark.parametrize(
     "test_case",  # Argument name for the test function
-    read_contract_data("data/payloads.json")  # List of argument values
+    read_contract_data(test_data)  # List of argument values
 )
 # Test function to test the "/spaceship/optimize" endpoint of the FastAPI application
 def test_optimize_contracts(test_case):

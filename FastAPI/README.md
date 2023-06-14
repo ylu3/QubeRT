@@ -7,7 +7,7 @@ This project is a web application that optimizes contract scheduling for a space
 1. Clone the repository:
 
 ```
-git clone <repository-url>
+git clone https://github.com/ylu3/QubeRT.git
 ```
 
 2. Install the dependencies:
@@ -39,7 +39,7 @@ uvicorn main:app --port 8080
 
 ```json
 {
-    "total_price": 38,
+    "total_price": 18,
     "contracts": ["Contract1", "Contract3"]
 }
 ```
@@ -57,7 +57,7 @@ uvicorn main:app --port 8080
 1. Run the tests:
 
 ```
-pytest tests/
+python -m pytest
 ```
 
 The tests are located in the `tests/` directory and cover various scenarios to ensure the correctness of the contract scheduling algorithm.
@@ -84,9 +84,9 @@ The project structure follows the MVC (Model-View-Controller) pattern:
 - `main.py` is the entry point of the application.
 - `models/` directory contains the Pydantic models used for request and response validation.
 - `routes/` directory contains the route handlers for the API endpoints.
-- `tests/` directory contains the test cases and the `contract_data.json` file used for parameterized testing.
-- `utils/` directory contains the `Scheduling` class with the contract scheduling algorithm implementation.
+- `tests/` directory contains the test cases.
+- `utils/` directory contains the `Scheduling` class with the scheduling algorithm implementation.
 
 ## Credits
 
-This project was created by [Your Name].
+This project was created by Yan LU.

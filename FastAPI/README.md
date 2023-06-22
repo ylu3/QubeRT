@@ -35,12 +35,12 @@ uvicorn main:app --port 8080
 ]
 ```
 
-3. The server will respond with a JSON object containing the total revenue and the selected contract names:
+3. The server will respond with a JSON object containing the total revenue and the path:
 
 ```json
 {
-    "total_price": 18,
-    "contracts": ["Contract1", "Contract3"]
+    "income": 18,
+    "path": ["Contract1", "Contract3"]
 }
 ```
 

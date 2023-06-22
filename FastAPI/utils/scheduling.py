@@ -40,4 +40,4 @@ class Scheduling:
             pre.append(end_times[i])
 
         # Return the maximum profit obtained and the jobs list
-        return OptimizeResult(total_price=dp[-1][0], contracts=sorted(dp[-1][1]))
+        return OptimizeResult(income=dp[-1][0], path=sorted(dp[-1][1]))

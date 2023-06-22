@@ -19,7 +19,7 @@ async def optimize_contracts(contracts: List[Contract]):
     contracts (List[Contract]): A list of Contract objects to be optimized.
 
     Returns:
-    OptimizeResult: The optimization result containing total price and contract names.
+    OptimizeResult: The optimization result containing total income and contract names.
     """
     # Call the contract_scheduling function from the Scheduling utility and return its result
     return Scheduling.contract_scheduling(contracts)

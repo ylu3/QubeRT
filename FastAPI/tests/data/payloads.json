@@ -6,8 +6,8 @@
             {"name": "Contract3", "start": 3, "duration": 2, "price": 40},
             {"name": "Contract4", "start": 3, "duration": 3, "price": 70}
         ],
-        "expected_total_price": 120,
-        "expected_selected_contracts": ["Contract1", "Contract4"]
+        "expected_income": 120,
+        "expected_path": ["Contract1", "Contract4"]
     },
     {
         "contracts": [
@@ -17,8 +17,8 @@
             {"name": "Contract4", "start": 4, "duration": 2, "price": 70},
             {"name": "Contract5", "start": 6, "duration": 3, "price": 60}
         ],
-        "expected_total_price": 150,
-        "expected_selected_contracts": ["Contract1", "Contract4", "Contract5"]
+        "expected_income": 150,
+        "expected_path": ["Contract1", "Contract4", "Contract5"]
     },
     {
         "contracts": [
@@ -26,8 +26,8 @@
             {"name": "Contract2", "start": 1, "duration": 2, "price": 6},
             {"name": "Contract3", "start": 1, "duration": 3, "price": 4}
         ],
-        "expected_total_price": 6,
-        "expected_selected_contracts": ["Contract2"]
+        "expected_income": 6,
+        "expected_path": ["Contract2"]
     },
     {
         "contracts": [
@@ -36,8 +36,8 @@
             {"name": "Contract3", "start": 2, "duration": 1, "price": 1},
             {"name": "Contract4", "start": 3, "duration": 1, "price": 2}
         ],
-        "expected_total_price": 7,
-        "expected_selected_contracts": ["Contract1", "Contract2"]
+        "expected_income": 7,
+        "expected_path": ["Contract1", "Contract2"]
     },
     {
         "contracts": [
@@ -47,8 +47,8 @@
             {"name": "Contract4", "start": 8, "duration": 2, "price": 10},
             {"name": "Contract5", "start": 2, "duration": 6, "price": 4}
         ],
-        "expected_total_price": 18,
-        "expected_selected_contracts": ["Contract3", "Contract4"]
+        "expected_income": 18,
+        "expected_path": ["Contract3", "Contract4"]
     },
     {
         "contracts": [
@@ -58,8 +58,8 @@
             {"name": "Contract4", "start": 7, "duration": 3, "price": 9},
             {"name": "Contract5", "start": 4, "duration": 5, "price": 9}
         ],
-        "expected_total_price": 10,
-        "expected_selected_contracts": ["Contract3"]
+        "expected_income": 10,
+        "expected_path": ["Contract3"]
     },
     {
         "contracts": [
@@ -72,8 +72,8 @@
             {"name": "Contract7", "start": 16, "duration": 3, "price": 3},
             {"name": "Contract8", "start": 2, "duration": 6, "price": 19}
         ],
-        "expected_total_price": 41,
-        "expected_selected_contracts": ["Contract8", "Contract4", "Contract7"]
+        "expected_income": 41,
+        "expected_path": ["Contract8", "Contract4", "Contract7"]
     },
     {
         "contracts": [
@@ -86,8 +86,8 @@
             {"name": "Contract7", "start": 13, "duration": 4, "price": 4},
             {"name": "Contract8", "start": 5, "duration": 4, "price": 6}
         ],
-        "expected_total_price": 22,
-        "expected_selected_contracts": ["Contract4", "Contract7"]
+        "expected_income": 22,
+        "expected_path": ["Contract4", "Contract7"]
     },
     {
         "contracts": [
@@ -102,8 +102,8 @@
             {"name": "Contract9", "start": 18, "duration": 1, "price": 9},
             {"name": "Contract10", "start": 24, "duration": 3, "price": 8}
         ],
-        "expected_total_price": 20,
-        "expected_selected_contracts": ["Contract5", "Contract9", "Contract10"]
+        "expected_income": 20,
+        "expected_path": ["Contract5", "Contract9", "Contract10"]
     },
     {
         "contracts": [
@@ -118,7 +118,7 @@
             {"name": "Contract9", "start": 27, "duration": 1, "price": 7},
             {"name": "Contract10", "start": 20, "duration": 10, "price": 2}
         ],
-        "expected_total_price": 18,
-        "expected_selected_contracts": ["Contract5", "Contract6", "Contract8", "Contract9"]
+        "expected_income": 18,
+        "expected_path": ["Contract5", "Contract6", "Contract8", "Contract9"]
     }
 ]

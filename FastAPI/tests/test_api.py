@@ -38,7 +38,7 @@ def test_optimize_contracts(test_case):
 
     Args:
         test_case (dict): A dictionary representing a test case.
-        It should contain the following keys: 'contracts', 'expected_total_price', 'expected_selected_contracts'.
+        It should contain the following keys: 'contracts', 'expected_income', 'expected_path'.
     """
     # Send POST request
     response = client.post("/spaceship/optimize", json=test_case["contracts"])
@@ -47,7 +47,7 @@ def test_optimize_contracts(test_case):
 
     # Check response status code
     assert response.status_code == 200
-    # Check 'total_price' field in the response
-    assert data["total_price"] == test_case["expected_total_price"]
+    # Check 'income' field in the response
+    assert data["income"] == test_case["expected_income"]
     # Check 'contracts' field in the response (order doesn't matter)
-    assert sorted(data["contracts"]) == sorted(test_case["expected_selected_contracts"])
+    assert sorted(data["path"]) == sorted(test_case["expected_path"])
